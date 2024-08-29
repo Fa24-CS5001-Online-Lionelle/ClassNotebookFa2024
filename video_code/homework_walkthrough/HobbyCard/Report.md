@@ -14,7 +14,9 @@ For all these questions, it is recommended you open up the python interpreter an
     a. What is the error message you get?  (copy and paste it below - you don't need to include the Traceback lines, just the error message including type of error)
 
     ```text
-    copy error here/replace this line
+    Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+    TypeError: unsupported operand type(s) for +: 'int' and 'str'
     ```
     
     b. Describe in your own words the error message. What does it mean?  (you can use the internet to help you, but make sure to cite your source)
@@ -22,18 +24,18 @@ For all these questions, it is recommended you open up the python interpreter an
 
     c. There are multiple ways this error can be fixed. However, converting between types is common, and it is called "casting" (think of actors on a stage). Take time to research online how to cast between types in python.  What is the correct way to cast the string "5" to an `int`?  Write code below in the block below
     ```python
-    # write your code here
+    x = 10 + int("5")
     
     ```
     * Note: for HW02 we will return to casting, as it is common to take in client input as a string, and convert it to another type for processing.
 
 2. Match the value with the correct type for `x`. Your options for types are `int`, `float`, `str`:  
    Example: x = 1.0 : float
-   * x = 1
-   * x = "1"
+   * x = 1 : int
+   * x = "1" : str
    * x = 1.0 + 1 
    * x = str(1.0)
-   * x = int(1 / 2)   
+   * x = int(1 / 2) : int   
     You can use the following code in the interpreter to help you:  
     ```python
     x = int(1/2)
