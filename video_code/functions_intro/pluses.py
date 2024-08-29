@@ -10,19 +10,17 @@ def request_number(prompt: str) -> int:
       Returns:
         int: the number.
     """
-    pass
+    value_str = input(prompt) 
+    return int(value_str)   
 
-
-def get_pluses(number : int) -> int:
-    """Gets a string of pluses by size count.
+def get_pluses(number : int) -> str:
+    """Gets a string of pluses by size number.
         
         Args:
-            number (int): The size count of the pluses.
+            number (int): The size number of the pluses.
         Returns:
-            int: The number of pluses."""
-    pass    
-
-
+            str: The number of pluses as full string."""
+    return '+' * number
 
 def main():
     """This is the main function where the program pluses starts running."""
