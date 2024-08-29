@@ -2,8 +2,8 @@
 Homework 1: Star Rating App
 ===========================
 Course:   CS 5001
-Semester: UPDATE
-Student:  YOUR NAME
+Semester: Fall 2024
+Student:  Albert Lionelle
 
 An assignment to practice string concatenation.
 """
@@ -15,13 +15,13 @@ An assignment to practice string concatenation.
 
 def one_star() -> str:
     """sets a single * to the variable stars."""
-    stars = ''  # change me
+    stars = '*'  # change me
     return stars
 
 
 def two_star() -> str:
     """sets two * to the variable stars."""
-    stars = ''  # change me, make sure to use the * operator
+    stars = '*' * 2  # change me, make sure to use the * operator
     return stars
 
 
@@ -39,7 +39,7 @@ def four_star() -> str:
 
 def five_star() -> str:
     """sets five * to the variable stars."""
-    stars = ''  # change me
+    stars = '*' * 5  # change me
     return stars
 
 
