@@ -16,8 +16,13 @@ An assignment to practice string concatenation.
 def hobby_card():
     """Builds a string that represents your hobby card."""
     card = ''  # start concatenating to this variable!, use multiple lines
-
-
+    card += '+' + '-' * 30 + '+\n'
+    card += '|' + '|\n'
+    card += '\n'
+    card += '\n'
+    card += '\n'
+    card += '\n'
+    card += '+' + '-' * 30 + '+'
     return card  # don't change
 
 
