@@ -1,0 +1,5 @@
+Report on Text Files
+
+This is my text file
+No real formatting matters, as everything is just characters
+did you know about character?
